@@ -1,0 +1,114 @@
+/* Resetting some default styles */
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+/* Basic Styles */
+body {
+    background-color: #00569f;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    line-height: 1.3;
+    background-image: url('ptrbackground.jpg');
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 200px;
+	height: 524px;
+    float: left;
+    background-color: #88bfe8;
+    padding: 10px;
+	flex-shrink: 0;
+}
+
+nav ul {
+    font-size: 1.0em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a:link, nav a:visited {
+    color: #000033;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    background-color: #00569f;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+header {
+    background-color: #000033;
+	background-image: url('sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+    color: #ffffff;
+    text-align: left;
+	text-indent: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+#content {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#content img {
+    max-width: 100%;
+    height: auto;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.resort {
+    color: #3399CC;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#content ul {
+    list-style-image: url('marker.gif');
+    padding-left: 40px;
+}
+
+#content ul li {
+    margin: 10px 0;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+    text-align: left;
+    font-style: italic;
+	margin: 10px;
+	padding-left: 20px;
+}
